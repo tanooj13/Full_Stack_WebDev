@@ -1,0 +1,146 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+table,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+#ribbon {
+    color: wheat;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    width: 25%;
+    height: auto;
+}
+
+/* Links styling */
+a {
+    color: #ffa500;
+    /* Orange link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #666;
+}
+
+th {
+    background-color: #333;
+    /* Dark gray header background */
+    color: #ffa500;
+    /* Orange text color */
+}
+
+/* Lists styling */
+ul,
+ol {
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Section headings */
+h2 {
+    margin-bottom: 10px;
+    color: #ffa500;
+    /* Orange color for section headings */
+}
+
+/* Personal info section */
+.personal-info {
+    text-align: center;
+}
+
+/* Summary section */
+.summary {
+    margin-bottom: 20px;
+}
+
+/* Achievements section */
+.achievements {
+    margin-bottom: 20px;
+}
+
+/* Personal details section */
+.personal-details {
+    margin-bottom: 20px;
+}
+
+/* Skill section */
+.technical-skills {
+    margin-bottom: 20px;
+}
+
+/* Skill heading */
+.skill h3 {
+    margin-bottom: 5px;
+    color: #ffa500;
+    /* Orange color for section headings */
+}
+
+/* Bar container */
+.bar-container {
+    width: 100%;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Bar */
+.bar {
+    height: 20px;
+    background-color: #ffa500;
+    /* Orange color for bars */
+    border-radius: 5px;
+    width: var(--bar-width);
+    /* Dynamically set width using custom property */
+    transition: width 1s ease-in-out;
+    /* Smooth animation for width change */
+}
